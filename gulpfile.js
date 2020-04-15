@@ -20,9 +20,7 @@ const DEST_PATH = 'dist';
 const DIST_JS = 'glosa.min.js';
 const DIST_JS_VENDORS = `${DEST_PATH}/js/vendors/`;
 const VENDOR_JS = [
-    "node_modules/vue/dist/vue.min.js",
-    "node_modules/axios/dist/axios.min.js",
-    "node_modules/ramda/dist/ramda.min.js"
+    //"node_modules/vue/dist/vue.min.js"
 ];
 
 
