@@ -31,9 +31,10 @@ const VENDOR_JS = [
 // Static server with reload
 function initBrowserSync(cb) {
     browserSync.init({
-        server: {
+        /*server: {   // Folder
             baseDir: "./" + DEST_PATH
-        }
+        }*/
+        proxy: "localhost:8000"
     });
     return cb;
 }
