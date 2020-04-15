@@ -17,7 +17,7 @@ const htmlmin = require('gulp-htmlmin');
 //===
 const SRC_PATH = 'src';
 const DEST_PATH = 'dist';
-const DIST_JS = 'glosa.min.js';
+const DIST_JS = 'main.min.js';
 const DIST_JS_VENDORS = `${DEST_PATH}/js/vendors/`;
 const VENDOR_JS = [
     //"node_modules/vue/dist/vue.min.js"
