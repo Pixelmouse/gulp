@@ -31,6 +31,8 @@ gulp
 
 ### Servidor de refresco automático que compila a cada cambio
 
+Recuerda cambiar `proxy` dentro del `gulpfile.js`. (Por ejemplo, Django sería localhost:8000)
+
 ``` sh
 gulp dev
 ```
