@@ -8,17 +8,16 @@
 npm install gulp-cli -g
 ```
 
-2) Descarga `gulpfile.js` y `package.json`.
+2) Descarga `gulpfile.js`.
 
 ``` sh
 curl -L -s -o gulpfile.js https://raw.githubusercontent.com/Pixelmouse/gulp/master/gulpfile.js
-curl -L -s -o package.json https://raw.githubusercontent.com/Pixelmouse/gulp/master/package.json
 ```
 
 3) Instala dependencias.
 
 ``` sh
-npm i
+npm i gulp-exec gulp-sourcemaps gulp-babel gulp-uglify gulp-rename gulp-concat gulp-sass gulp-htmlmin
 ```
 
 ## Uso
