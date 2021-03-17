@@ -17,7 +17,7 @@ curl -L -s -o gulpfile.js https://raw.githubusercontent.com/Pixelmouse/gulp/mast
 3) Instala dependencias.
 
 ``` sh
-npm i gulp browser-sync @babel/core @babel/preset-env gulp-exec gulp-sourcemaps gulp-babel gulp-uglify gulp-rename gulp-concat gulp-sass gulp-htmlmin
+npm i gulp browser-sync @babel/core @babel/preset-env gulp-exec gulp-sourcemaps gulp-babel gulp-uglify gulp-rename gulp-concat gulp-dart-sass gulp-htmlmin
 ```
 
 ## Uso

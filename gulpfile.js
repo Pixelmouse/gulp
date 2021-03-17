@@ -9,7 +9,7 @@ const babel = require('gulp-babel');
 const uglify = require('gulp-uglify');
 const rename = require('gulp-rename');
 const concat = require('gulp-concat');
-const sass = require('gulp-sass');
+const sass = require('gulp-dart-sass');
 const htmlmin = require('gulp-htmlmin');
 
 //===
